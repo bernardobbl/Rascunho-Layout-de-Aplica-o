@@ -1,0 +1,70 @@
+Brainstorm Jeofton
+
+Este documento detalha quatro conceitos de aplicativos e sistemas focados em resolver problemas reais com diferenciais baseados em experiência do usuário (UX), com um plano de ação detalhado para cada um.
+
+
+
+1. Aplicativo de Gestão de Voluntariado Local
+
+Focado em pequenas ONGs que precisam organizar escalas de forma simples e direta.
+
+
+
+UX: Criação de um onboarding extremamente intuitivo para usuários com baixa intimidade tecnológica.
+
+
+
+Plano de Ação
+
+Fase 1 (MVP): Desenvolver o fluxo de cadastro simplificado e a listagem de eventos. Implementar o botão de "Confirmar Presença" integrado ao banco de dados em tempo real.
+
+Fase 2 (UX \& Engajamento): Criar o tutorial de boas-vindas interativo (onboarding). Implementar notificações push para avisar sobre novos eventos ou mudanças de escala.
+
+Fase 3 (Escala): Adicionar um painel administrativo para a ONG gerenciar os voluntários e gerar relatórios de horas trabalhadas.
+
+
+
+2. Sistema de Agendamento para Microempreendedores
+
+Solução para profissionais que ainda dependem de agendas físicas (barbeiros, manicures, etc.).
+
+
+
+UX: Calendário visual interativo com funcionalidade drag-and-drop. Marcação em menos de 3 cliques.
+
+
+
+Plano de Ação
+
+Fase 1 (MVP): Criar a interface de calendário onde o profissional pode clicar e adicionar um nome/serviço. Configurar o banco de dados para salvar os horários.
+
+Fase 2 (Interatividade): Implementar o drag-and-drop para permitir que o usuário arraste um agendamento para outro horário. Adicionar o cadastro de serviços e preços.
+
+Fase 3 (Funcionalidades): Criar o histórico de clientes e implementar uma funcionalidade de envio automático de lembretes via WhatsApp/E-mail.
+
+
+
+
+
+3. Gerenciador de Assinaturas e Gastos Fixos
+
+Dashboard para controle de serviços de streaming e mensalidades recorrentes.
+
+
+
+UX: Visualização de Dados (Data Viz) com gráficos dinâmicos em vez de tabelas.
+
+
+
+Plano de Ação
+
+Fase 1 (MVP): Criar o formulário de entrada de dados (Nome do serviço, valor, data de vencimento) e uma lista simples de visualização.
+
+Fase 2 (Visualização): Integrar o Chart.js para gerar um gráfico de pizza que mostre a porcentagem de gastos por categoria em tempo real.
+
+Fase 3 (Inteligência): Adicionar um sistema de alertas que muda a cor do dashboard quando o usuário ultrapassa um limite de gastos definido e gerar previsões de gastos anuais.
+
+
+
+
+
