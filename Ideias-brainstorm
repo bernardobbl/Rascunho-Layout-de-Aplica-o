@@ -25,3 +25,42 @@ Igrejas
 Jovens
 Estudos bíblicos
 👉 estilo “grupo fechado”
+
+
+
+PLANO DE AÇAO PARA O MVP:  
+\🧩 1. FEED COM PROPÓSITO
+📌 O que é
+
+Um feed onde o usuário visualiza conteúdos com propósito:
+versículos
+reflexões
+posts cristãos
+⚙️ Responsabilidades técnicas
+🔙 Backend
+
+Criar entidade User
+Criar entidade Post
+Criar entidade Like
+Criar endpoint:
+GET /feed → retorna lista de posts
+Implementar lógica:
+ordenar por relevância (likes + data)
+filtrar conteúdo
+🗄️ Banco de dados (MySQL)
+Tabelas:
+users
+posts
+likes
+🎨 Frontend
+
+Tela de feed estilo Instagram:
+lista de posts
+botão de curtir
+área de comentários
+✅ Entrega final
+
+Usuário entra no app
+Visualiza posts no feed
+Consegue curtir
+Consegue comentar
